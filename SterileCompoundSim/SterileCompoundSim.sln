@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 
 Project("{DA5BD756-1028-39CA-7802-1C49412911DE}") = "SterileCompoundSim", "Assembly-CSharp.csproj", "{7E2D9B6D-52A8-A048-3FC5-AC84D8CC8D32}"
 EndProject
+Project("{DA5BD756-1028-39CA-7802-1C49412911DE}") = "SterileCompoundSim", "Assembly-CSharp-Editor.csproj", "{92B1C614-04F9-473F-D37F-C9EF56A224A3}"
+EndProject
+Project("{DA5BD756-1028-39CA-7802-1C49412911DE}") = "SterileCompoundSim", "Assembly-UnityScript-Editor.unityproj", "{B4FB2ED1-02B6-3D1C-7C18-23EE50C1E887}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +17,14 @@ Global
 		{7E2D9B6D-52A8-A048-3FC5-AC84D8CC8D32}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E2D9B6D-52A8-A048-3FC5-AC84D8CC8D32}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E2D9B6D-52A8-A048-3FC5-AC84D8CC8D32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92B1C614-04F9-473F-D37F-C9EF56A224A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92B1C614-04F9-473F-D37F-C9EF56A224A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92B1C614-04F9-473F-D37F-C9EF56A224A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92B1C614-04F9-473F-D37F-C9EF56A224A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4FB2ED1-02B6-3D1C-7C18-23EE50C1E887}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4FB2ED1-02B6-3D1C-7C18-23EE50C1E887}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4FB2ED1-02B6-3D1C-7C18-23EE50C1E887}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4FB2ED1-02B6-3D1C-7C18-23EE50C1E887}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
