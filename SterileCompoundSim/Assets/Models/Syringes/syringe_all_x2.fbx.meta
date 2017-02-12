@@ -1,0 +1,137 @@
+fileFormatVersion: 2
+guid: 3ad2df9367f075745a277155eb6cc7a7
+timeCreated: 1486729940
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Barrel._30ml
+    100002: Barrel_3ml
+    100004: Barrel_60ml
+    100006: Cap.000
+    100008: Cap.001
+    100010: Cap.002
+    100012: Needle.000
+    100014: Needle.001
+    100016: Needle.002
+    100018: Plunger_30ml
+    100020: Plunger_3ml
+    100022: Plunger_60ml
+    100024: //RootNode
+    400000: Barrel._30ml
+    400002: Barrel_3ml
+    400004: Barrel_60ml
+    400006: Cap.000
+    400008: Cap.001
+    400010: Cap.002
+    400012: Needle.000
+    400014: Needle.001
+    400016: Needle.002
+    400018: Plunger_30ml
+    400020: Plunger_3ml
+    400022: Plunger_60ml
+    400024: //RootNode
+    2300000: Barrel._30ml
+    2300002: Barrel_3ml
+    2300004: Barrel_60ml
+    2300006: Cap.000
+    2300008: Cap.001
+    2300010: Cap.002
+    2300012: Needle.000
+    2300014: Needle.001
+    2300016: Needle.002
+    2300018: Plunger_30ml
+    2300020: Plunger_3ml
+    2300022: Plunger_60ml
+    3300000: Barrel._30ml
+    3300002: Barrel_3ml
+    3300004: Barrel_60ml
+    3300006: Cap.000
+    3300008: Cap.001
+    3300010: Cap.002
+    3300012: Needle.000
+    3300014: Needle.001
+    3300016: Needle.002
+    3300018: Plunger_30ml
+    3300020: Plunger_3ml
+    3300022: Plunger_60ml
+    4300000: Barrel_3ml
+    4300002: Barrel._30ml
+    4300004: Cap.001
+    4300006: Needle.001
+    4300008: Plunger_30ml
+    4300010: Plunger_3ml
+    4300012: Cap.002
+    4300014: Needle.002
+    4300016: Barrel_60ml
+    4300018: Plunger_60ml
+    4300020: Cap.000
+    4300022: Needle.000
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
