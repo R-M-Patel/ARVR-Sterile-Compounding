@@ -19,7 +19,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_0;UNITY_5_5;UNITY_5;UNITY_64;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VIDEO;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_0;UNITY_5_5;UNITY_5;UNITY_64;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VIDEO;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -39,38 +39,114 @@
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="UnityEngine">
-      <HintPath>D:/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
-      <HintPath>D:/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Fluvio-ProjectSettings\Resources\NewFluidParticlePlugin.cs" />
+     <Compile Include="Assets\Fluvio\_Main\PlatformSource\Cloo\Bindings\CL10.cs" />
+     <Compile Include="Assets\Fluvio\_Main\PlatformSource\Cloo\Bindings\CL11.cs" />
+     <Compile Include="Assets\Fluvio\_Main\PlatformSource\Cloo\Bindings\CL12.cs" />
+     <Compile Include="Assets\Fluvio\_Main\PlatformSource\Thinksquirrel\Fluvio\Internal\ComputeIncludeParser.cs" />
+     <Compile Include="Assets\Fluvio\_Main\PlatformSource\Thinksquirrel\Fluvio\Internal\FluvioRuntimeHelper.cs" />
+     <Compile Include="Assets\Fluvio\_Main\PlatformSource\Thinksquirrel\Fluvio\Internal\Threading\Interlocked.cs" />
+     <Compile Include="Assets\Fluvio\_Main\PlatformSource\Thinksquirrel\Fluvio\Internal\Threading\ThreadFactory.cs" />
+     <Compile Include="Assets\Fluvio\_Main\PlatformSource\Thinksquirrel\Fluvio\Internal\Threading\ThreadHandler.cs" />
+     <Compile Include="Assets\Fluvio\_Main\PlatformSource\Thinksquirrel\Fluvio\SamplePlugins\FluidMixer.cs" />
+     <Compile Include="Assets\Fluvio\_Main\PlatformSource\Thinksquirrel\Fluvio\SamplePlugins\FluidTouch.cs" />
      <Compile Include="Assets\Models\BasicVRHands\Scripts\HandController.cs" />
+     <Compile Include="Assets\NewFluidParticlePlugin.cs" />
+     <None Include="Assets\Fluvio\Resources\ComputeShaders\Plugins\SizeByDensity\ComputeShader.compute" />
+     <None Include="Assets\Fluvio\Resources\ComputeShaders\FluidParticleSystem\ComputeShader.compute" />
+     <None Include="Assets\Fluvio\Resources\ComputeShaders\Plugins\PhaseChange\ComputeShader.cginc" />
+     <None Include="Assets\Fluvio\Shaders\Particles\FluidParticleShader-Lighting.cginc" />
+     <None Include="Assets\Fluvio\Shaders\Particles\Fluvio-Mobile-Particles-Additive.shader" />
+     <None Include="Assets\Fluvio\Resources\ComputeShaders\Solvers\FluidSolver\OpenCLShader.cl.txt" />
+     <None Include="Assets\Fluvio\Shaders\FluidEffect\Fluvio-FluidEffectMetal.shader" />
+     <None Include="Assets\Fluvio\Shaders\Particles\Fluvio-Mobile-Particles-Multiply.shader" />
+     <None Include="Assets\Fluvio\Resources\ComputeShaders\Plugins\ColorByDensity\ComputeShader.compute" />
+     <None Include="Assets\Fluvio-ProjectSettings\Resources\CustomPlugins\NewFluidParticlePlugin\OpenCLShader.cl.txt" />
+     <None Include="Assets\Fluvio\Shaders\FluidEffect\Hidden-FluidEffectReplaceMetal.shader" />
+     <None Include="Assets\Fluvio\Shaders\Particles\Fluvio-Particles-NoGrabPass-VertexLitBlended.shader" />
+     <None Include="Assets\Fluvio\Shaders\FluidEffect\Fluvio-FluidEffectSpecular.shader" />
+     <None Include="Assets\Fluvio\Resources\ComputeShaders\Plugins\ColorByDensity\ComputeShader.cginc" />
+     <None Include="Assets\Fluvio\Resources\ComputeShaders\Includes\FluvioCompute.cginc" />
+     <None Include="Assets\Fluvio\Resources\ComputeShaders\Plugins\SizeByDensity\ComputeShader.cginc" />
+     <None Include="Assets\Fluvio\Resources\ComputeShaders\SamplePlugins\FluidTouch\ComputeShader.cginc" />
+     <None Include="Assets\Fluvio-ProjectSettings\Resources\CustomPlugins\NewFluidParticlePlugin\ComputeShader.cginc" />
+     <None Include="Assets\Fluvio\Shaders\Particles\Fluvio-Mobile-Particles-AlphaBlended.shader" />
+     <None Include="Assets\Fluvio-ProjectSettings\Resources\CustomPlugins\NewFluidParticlePlugin\ComputeShader.compute" />
+     <None Include="Assets\Fluvio\Resources\ComputeShaders\SamplePlugins\FluidTouch\OpenCLShader.cl.txt" />
+     <None Include="Assets\Fluvio\Shaders\FluidEffect\Hidden-FluidEffectReplaceSpecular.shader" />
+     <None Include="Assets\Fluvio\Shaders\FluidEffect\Hidden-FluidEffectComposite.shader" />
+     <None Include="Assets\Fluvio\Shaders\FluidEffect\Hidden-FluidEffectBlur.shader" />
+     <None Include="Assets\Fluvio\Shaders\Particles\FluidParticleShader-Mobile.cginc" />
+     <None Include="Assets\Fluvio\Shaders\FluidEffect\FluidEffectShadow.cginc" />
+     <None Include="Assets\Fluvio\Resources\ComputeShaders\Includes\FluvioLanguageSupport.cginc" />
      <None Include="Assets\RenameTool\Readme.txt" />
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.UI">
- <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Networking">
- <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.PlaymodeTestsRunner">
- <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+     <None Include="Assets\Fluvio\Resources\ComputeShaders\Plugins\ColorByDensity\OpenCLShader.cl.txt" />
+     <None Include="Assets\Fluvio\Resources\ComputeShaders\Plugins\PhaseChange\OpenCLShader.cl.txt" />
+     <None Include="Assets\Fluvio\Resources\ComputeShaders\Plugins\FluidEffector\ComputeShader.cginc" />
+     <None Include="Assets\Fluvio\Resources\ComputeShaders\Plugins\FluidEffector\ComputeShader.compute" />
+     <None Include="Assets\Fluvio\Resources\ComputeShaders\SamplePlugins\FluidMixer\OpenCLShader.cl.txt" />
+     <None Include="Assets\Fluvio\Resources\ComputeShaders\Plugins\SizeByDensity\OpenCLShader.cl.txt" />
+     <None Include="Assets\Fluvio\Shaders\FluidEffect\FluidEffect.cginc" />
+     <None Include="Assets\Fluvio-ProjectSettings\Resources\CustomPlugins\NewFluidParticlePlugin 1\OpenCLShader.cl.txt" />
+     <None Include="Assets\Fluvio\Resources\ComputeShaders\SamplePlugins\FluidTouch\ComputeShader.compute" />
+     <None Include="Assets\Fluvio\Resources\ComputeShaders\FluidParticleSystem\OpenCLShader.cl.txt" />
+     <None Include="Assets\Fluvio\Resources\ComputeShaders\Plugins\PhaseChange\ComputeShader.compute" />
+     <None Include="Assets\Fluvio\Resources\ComputeShaders\Solvers\FluidSolver\ComputeShader.cginc" />
+     <None Include="Assets\Fluvio\Shaders\Particles\Fluvio-Particles-NoGrabPass-Additive.shader" />
+     <None Include="Assets\Fluvio\Resources\ComputeShaders\FluidParticleSystem\ComputeShader.cginc" />
+     <None Include="Assets\Fluvio\Shaders\Particles\Fluvio-Particles-NoGrabPass-AdditiveLit.shader" />
+     <None Include="Assets\Fluvio\Resources\ComputeShaders\Plugins\FluidEffector\OpenCLShader.cl.txt" />
+     <None Include="Assets\Fluvio\Resources\ComputeShaders\Solvers\FluidSolver\ComputeShader.compute" />
+     <None Include="Assets\Fluvio\Shaders\Particles\Fluvio-Particles-VertexLitBlended.shader" />
+     <None Include="Assets\Fluvio\Resources\ComputeShaders\SamplePlugins\FluidMixer\ComputeShader.cginc" />
+     <None Include="Assets\Fluvio\_Main\Fluvio.Runtime.xml" />
+     <None Include="Assets\Fluvio\Shaders\Particles\FluidParticleShader.cginc" />
+     <None Include="Assets\Fluvio\Shaders\Particles\Fluvio-Particles-AdditiveLit.shader" />
+     <None Include="Assets\Fluvio\README.txt" />
+     <None Include="Assets\Fluvio-ProjectSettings\Resources\CustomPlugins\NewFluidParticlePlugin 1\ComputeShader.compute" />
+     <None Include="Assets\Fluvio\Shaders\Particles\Fluvio-Particles-NoGrabPass-AlphaBlended.shader" />
+     <None Include="Assets\Fluvio\Shaders\Particles\Fluvio-Particles-AlphaBlended.shader" />
+     <None Include="Assets\Fluvio-ProjectSettings\Resources\CustomPlugins\NewFluidParticlePlugin 1\ComputeShader.cginc" />
+     <None Include="Assets\Fluvio\Resources\ComputeShaders\SamplePlugins\FluidMixer\ComputeShader.compute" />
+     <None Include="Assets\Fluvio\Shaders\Particles\Fluvio-Particles-Multiply.shader" />
+     <None Include="Assets\Fluvio\Shaders\Particles\Fluvio-Particles-NoGrabPass-Multiply.shader" />
+     <None Include="Assets\Fluvio\Shaders\Particles\Fluvio-Particles-Additive.shader" />
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Analytics">
- <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PlaymodeTestsRunner">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.HoloLens">
- <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Purchasing">
- <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll</HintPath>
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.VR">
- <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="Cloo">
+ <HintPath>/Users/jenniferbramson/Desktop/CS1980/ARVR-CS-Capstone-Project/SterileCompoundSim/Assets/Fluvio/_Main/Cloo.dll</HintPath>
+ </Reference>
+ <Reference Include="Fluvio.Runtime">
+ <HintPath>/Users/jenniferbramson/Desktop/CS1980/ARVR-CS-Capstone-Project/SterileCompoundSim/Assets/Fluvio/_Main/Fluvio.Runtime.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

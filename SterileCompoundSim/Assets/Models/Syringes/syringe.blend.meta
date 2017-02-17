@@ -1,0 +1,145 @@
+fileFormatVersion: 2
+guid: d463630399c8f4f108747dd49f8336fd
+timeCreated: 1487299609
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: 30ml
+    100002: 3ml
+    100004: 60ml
+    100006: Barrel_30ml
+    100008: Barrel_3ml
+    100010: Barrel_60ml
+    100012: Cap_000
+    100014: Cap_001
+    100016: Cap_002
+    100018: Needle_000
+    100020: Needle_001
+    100022: Needle_002
+    100024: Plunger_30ml
+    100026: Plunger_3ml
+    100028: Plunger_60ml
+    100030: //RootNode
+    400000: 30ml
+    400002: 3ml
+    400004: 60ml
+    400006: Barrel_30ml
+    400008: Barrel_3ml
+    400010: Barrel_60ml
+    400012: Cap_000
+    400014: Cap_001
+    400016: Cap_002
+    400018: Needle_000
+    400020: Needle_001
+    400022: Needle_002
+    400024: Plunger_30ml
+    400026: Plunger_3ml
+    400028: Plunger_60ml
+    400030: //RootNode
+    2300000: Barrel_30ml
+    2300002: Barrel_3ml
+    2300004: Barrel_60ml
+    2300006: Cap_000
+    2300008: Cap_001
+    2300010: Cap_002
+    2300012: Needle_000
+    2300014: Needle_001
+    2300016: Needle_002
+    2300018: Plunger_30ml
+    2300020: Plunger_3ml
+    2300022: Plunger_60ml
+    3300000: Barrel_30ml
+    3300002: Barrel_3ml
+    3300004: Barrel_60ml
+    3300006: Cap_000
+    3300008: Cap_001
+    3300010: Cap_002
+    3300012: Needle_000
+    3300014: Needle_001
+    3300016: Needle_002
+    3300018: Plunger_30ml
+    3300020: Plunger_3ml
+    3300022: Plunger_60ml
+    4300000: Plunger_3ml
+    4300002: Needle_001
+    4300004: Cap_001
+    4300006: Barrel_3ml
+    4300008: Needle_000
+    4300010: Cap_000
+    4300012: Plunger_30ml
+    4300014: Barrel_30ml
+    4300016: Plunger_60ml
+    4300018: Barrel_60ml
+    4300020: Needle_002
+    4300022: Cap_002
+    7400000: Default Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
