@@ -4,7 +4,7 @@
 ###Location: Salk Hall
 
 ##__Sterile Compounding Procedure__
-* See videos `SterileCompoundAssessment_Part1.MOV` and `SterileCompoundAssessment_Part2.MOV` to see
+* See videos `SterileCompoundAssessment_Part1.mp4` and `SterileCompoundAssessment_Part2.mp4` to see
 	assessment administered by Dr. James Pschirer at the Pitt School of Pharmacy.
 * Procedure should be performed six (6) inches in from the front of the hood.
 * Dr. Lorin Grieve's method to remove small bubbles from syringe:
