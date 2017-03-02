@@ -164,7 +164,7 @@ typedef struct {
 #define FLUVIO_PI 3.14159265359f
 
 // Grid constants (change in FluvioSettings inspector only!)
-#define FLUVIO_USE_INDEX_GRID_ON
+#define FLUVIO_USE_INDEX_GRID_OFF
 #define FLUVIO_MAX_GRID_SIZE 64
 #define FLUVIO_GRID_BUCKET_SIZE 64
 #define FLUVIO_GRID_LENGTH 16777216

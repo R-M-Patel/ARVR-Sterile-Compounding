@@ -46,6 +46,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Collision_3.cs" />
+     <Compile Include="Assets\Collision_30.cs" />
+     <Compile Include="Assets\Collision_60.cs" />
      <Compile Include="Assets\Fluvio-ProjectSettings\Resources\NewFluidParticlePlugin.cs" />
      <Compile Include="Assets\Fluvio\_Main\PlatformSource\Cloo\Bindings\CL10.cs" />
      <Compile Include="Assets\Fluvio\_Main\PlatformSource\Cloo\Bindings\CL11.cs" />
@@ -57,8 +60,9 @@
      <Compile Include="Assets\Fluvio\_Main\PlatformSource\Thinksquirrel\Fluvio\Internal\Threading\ThreadHandler.cs" />
      <Compile Include="Assets\Fluvio\_Main\PlatformSource\Thinksquirrel\Fluvio\SamplePlugins\FluidMixer.cs" />
      <Compile Include="Assets\Fluvio\_Main\PlatformSource\Thinksquirrel\Fluvio\SamplePlugins\FluidTouch.cs" />
+     <Compile Include="Assets\LiquidMesh.cs" />
      <Compile Include="Assets\Models\BasicVRHands\Scripts\HandController.cs" />
-     <Compile Include="Assets\NewFluidParticlePlugin.cs" />
+     <Compile Include="Assets\Syringe.cs" />
      <None Include="Assets\Fluvio\Resources\ComputeShaders\Plugins\SizeByDensity\ComputeShader.compute" />
      <None Include="Assets\Fluvio\Resources\ComputeShaders\FluidParticleSystem\ComputeShader.compute" />
      <None Include="Assets\Fluvio\Resources\ComputeShaders\Plugins\PhaseChange\ComputeShader.cginc" />
@@ -94,7 +98,6 @@
      <None Include="Assets\Fluvio\Resources\ComputeShaders\SamplePlugins\FluidMixer\OpenCLShader.cl.txt" />
      <None Include="Assets\Fluvio\Resources\ComputeShaders\Plugins\SizeByDensity\OpenCLShader.cl.txt" />
      <None Include="Assets\Fluvio\Shaders\FluidEffect\FluidEffect.cginc" />
-     <None Include="Assets\Fluvio-ProjectSettings\Resources\CustomPlugins\NewFluidParticlePlugin 1\OpenCLShader.cl.txt" />
      <None Include="Assets\Fluvio\Resources\ComputeShaders\SamplePlugins\FluidTouch\ComputeShader.compute" />
      <None Include="Assets\Fluvio\Resources\ComputeShaders\FluidParticleSystem\OpenCLShader.cl.txt" />
      <None Include="Assets\Fluvio\Resources\ComputeShaders\Plugins\PhaseChange\ComputeShader.compute" />
@@ -110,10 +113,8 @@
      <None Include="Assets\Fluvio\Shaders\Particles\FluidParticleShader.cginc" />
      <None Include="Assets\Fluvio\Shaders\Particles\Fluvio-Particles-AdditiveLit.shader" />
      <None Include="Assets\Fluvio\README.txt" />
-     <None Include="Assets\Fluvio-ProjectSettings\Resources\CustomPlugins\NewFluidParticlePlugin 1\ComputeShader.compute" />
      <None Include="Assets\Fluvio\Shaders\Particles\Fluvio-Particles-NoGrabPass-AlphaBlended.shader" />
      <None Include="Assets\Fluvio\Shaders\Particles\Fluvio-Particles-AlphaBlended.shader" />
-     <None Include="Assets\Fluvio-ProjectSettings\Resources\CustomPlugins\NewFluidParticlePlugin 1\ComputeShader.cginc" />
      <None Include="Assets\Fluvio\Resources\ComputeShaders\SamplePlugins\FluidMixer\ComputeShader.compute" />
      <None Include="Assets\Fluvio\Shaders\Particles\Fluvio-Particles-Multiply.shader" />
      <None Include="Assets\Fluvio\Shaders\Particles\Fluvio-Particles-NoGrabPass-Multiply.shader" />

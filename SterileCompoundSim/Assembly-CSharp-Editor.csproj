@@ -82,7 +82,6 @@
      <None Include="Assets\Fluvio\Resources\ComputeShaders\SamplePlugins\FluidMixer\OpenCLShader.cl.txt" />
      <None Include="Assets\Fluvio\Resources\ComputeShaders\Plugins\SizeByDensity\OpenCLShader.cl.txt" />
      <None Include="Assets\Fluvio\Shaders\FluidEffect\FluidEffect.cginc" />
-     <None Include="Assets\Fluvio-ProjectSettings\Resources\CustomPlugins\NewFluidParticlePlugin 1\OpenCLShader.cl.txt" />
      <None Include="Assets\Fluvio\Resources\ComputeShaders\SamplePlugins\FluidTouch\ComputeShader.compute" />
      <None Include="Assets\Fluvio\Resources\ComputeShaders\FluidParticleSystem\OpenCLShader.cl.txt" />
      <None Include="Assets\Fluvio\Resources\ComputeShaders\Plugins\PhaseChange\ComputeShader.compute" />
@@ -98,10 +97,8 @@
      <None Include="Assets\Fluvio\Shaders\Particles\FluidParticleShader.cginc" />
      <None Include="Assets\Fluvio\Shaders\Particles\Fluvio-Particles-AdditiveLit.shader" />
      <None Include="Assets\Fluvio\README.txt" />
-     <None Include="Assets\Fluvio-ProjectSettings\Resources\CustomPlugins\NewFluidParticlePlugin 1\ComputeShader.compute" />
      <None Include="Assets\Fluvio\Shaders\Particles\Fluvio-Particles-NoGrabPass-AlphaBlended.shader" />
      <None Include="Assets\Fluvio\Shaders\Particles\Fluvio-Particles-AlphaBlended.shader" />
-     <None Include="Assets\Fluvio-ProjectSettings\Resources\CustomPlugins\NewFluidParticlePlugin 1\ComputeShader.cginc" />
      <None Include="Assets\Fluvio\Resources\ComputeShaders\SamplePlugins\FluidMixer\ComputeShader.compute" />
      <None Include="Assets\Fluvio\Shaders\Particles\Fluvio-Particles-Multiply.shader" />
      <None Include="Assets\Fluvio\Shaders\Particles\Fluvio-Particles-NoGrabPass-Multiply.shader" />
@@ -199,6 +196,10 @@
  <Reference Include="UnityEditor.iOS.Extensions.Common">
  <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp.csproj">
+      <Project>{7E2D9B6D-52A8-A048-3FC5-AC84D8CC8D32}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
