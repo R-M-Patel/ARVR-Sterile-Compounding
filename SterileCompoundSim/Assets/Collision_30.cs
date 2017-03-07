@@ -32,6 +32,7 @@ public class Collision_30 : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
+		//syr_30.testMove ();
 		syr_30.keepInBounds ();
 	}
 

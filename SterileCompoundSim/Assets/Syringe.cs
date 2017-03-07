@@ -44,13 +44,13 @@ public class Syringe {
 			b_n_diff = new Vector3(-1.0f, 3.43f, 0.0f);
 		} else if (num == 30) {
 			b_p_diff = 0.0f;
-			MAX = 0.5f;
+			MAX = 0.55f;
 			MIN = -3f;
 			b_n_diff = new Vector3(0.0f, 3.43f, 0.0f);
 		} else if (num == 60) {
 			b_p_diff = -1.0f;
 			MAX = 0f;
-			MIN = -4.3f;
+			MIN = -4.5f;
 			b_n_diff = new Vector3(-1.0f, 3.43f, 0.0f);
 		}
 

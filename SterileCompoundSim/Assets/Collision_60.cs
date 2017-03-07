@@ -33,6 +33,7 @@ public class Collision_60 : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
+		//syr_60.testMove ();
 		syr_60.keepInBounds ();
 	}
 
