@@ -21,6 +21,12 @@ ModelImporter:
     100026: Plunger_3ml
     100028: Plunger_60ml
     100030: //RootNode
+    100032: Cap_3
+    100034: Cap_30
+    100036: Cap_60
+    100038: Needle_3
+    100040: Needle_30
+    100042: Needle_60
     400000: 30ml
     400002: 3ml
     400004: 60ml
@@ -37,6 +43,12 @@ ModelImporter:
     400026: Plunger_3ml
     400028: Plunger_60ml
     400030: //RootNode
+    400032: Cap_3
+    400034: Cap_30
+    400036: Cap_60
+    400038: Needle_3
+    400040: Needle_30
+    400042: Needle_60
     2300000: Barrel_30ml
     2300002: Barrel_3ml
     2300004: Barrel_60ml
@@ -49,6 +61,12 @@ ModelImporter:
     2300018: Plunger_30ml
     2300020: Plunger_3ml
     2300022: Plunger_60ml
+    2300024: Cap_3
+    2300026: Cap_30
+    2300028: Cap_60
+    2300030: Needle_3
+    2300032: Needle_30
+    2300034: Needle_60
     3300000: Barrel_30ml
     3300002: Barrel_3ml
     3300004: Barrel_60ml
@@ -61,6 +79,12 @@ ModelImporter:
     3300018: Plunger_30ml
     3300020: Plunger_3ml
     3300022: Plunger_60ml
+    3300024: Cap_3
+    3300026: Cap_30
+    3300028: Cap_60
+    3300030: Needle_3
+    3300032: Needle_30
+    3300034: Needle_60
     4300000: Plunger_3ml
     4300002: Needle_001
     4300004: Cap_001
@@ -73,6 +97,12 @@ ModelImporter:
     4300018: Barrel_60ml
     4300020: Needle_002
     4300022: Cap_002
+    4300024: Needle_3
+    4300026: Cap_3
+    4300028: Needle_30
+    4300030: Cap_30
+    4300032: Needle_60
+    4300034: Cap_60
     7400000: Default Take
     9500000: //RootNode
   materials:

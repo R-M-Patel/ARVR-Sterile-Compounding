@@ -61,6 +61,7 @@
      <Compile Include="Assets\Fluvio\_Main\PlatformSource\Thinksquirrel\Fluvio\SamplePlugins\FluidMixer.cs" />
      <Compile Include="Assets\Fluvio\_Main\PlatformSource\Thinksquirrel\Fluvio\SamplePlugins\FluidTouch.cs" />
      <Compile Include="Assets\LiquidMesh.cs" />
+     <Compile Include="Assets\LiquidShader\Scripts\LiquidVolume.cs" />
      <Compile Include="Assets\Models\BasicVRHands\Scripts\HandController.cs" />
      <Compile Include="Assets\Syringe.cs" />
      <None Include="Assets\Fluvio\Resources\ComputeShaders\Plugins\SizeByDensity\ComputeShader.compute" />
@@ -74,6 +75,7 @@
      <None Include="Assets\Fluvio\Resources\ComputeShaders\Plugins\ColorByDensity\ComputeShader.compute" />
      <None Include="Assets\Fluvio-ProjectSettings\Resources\CustomPlugins\NewFluidParticlePlugin\OpenCLShader.cl.txt" />
      <None Include="Assets\Fluvio\Shaders\FluidEffect\Hidden-FluidEffectReplaceMetal.shader" />
+     <None Include="Assets\LiquidShader\Resources\Shaders\LiquidVolumeZWriteBack.shader" />
      <None Include="Assets\Fluvio\Shaders\Particles\Fluvio-Particles-NoGrabPass-VertexLitBlended.shader" />
      <None Include="Assets\Fluvio\Shaders\FluidEffect\Fluvio-FluidEffectSpecular.shader" />
      <None Include="Assets\Fluvio\Resources\ComputeShaders\Plugins\ColorByDensity\ComputeShader.cginc" />
@@ -85,27 +87,35 @@
      <None Include="Assets\Fluvio-ProjectSettings\Resources\CustomPlugins\NewFluidParticlePlugin\ComputeShader.compute" />
      <None Include="Assets\Fluvio\Resources\ComputeShaders\SamplePlugins\FluidTouch\OpenCLShader.cl.txt" />
      <None Include="Assets\Fluvio\Shaders\FluidEffect\Hidden-FluidEffectReplaceSpecular.shader" />
+     <None Include="Assets\LiquidShader\Resources\Shaders\LiquidVolumeDefaultNoFlask.shader" />
      <None Include="Assets\Fluvio\Shaders\FluidEffect\Hidden-FluidEffectComposite.shader" />
      <None Include="Assets\Fluvio\Shaders\FluidEffect\Hidden-FluidEffectBlur.shader" />
      <None Include="Assets\Fluvio\Shaders\Particles\FluidParticleShader-Mobile.cginc" />
      <None Include="Assets\Fluvio\Shaders\FluidEffect\FluidEffectShadow.cginc" />
+     <None Include="Assets\LiquidShader\Resources\Shaders\LVBlur.cginc" />
+     <None Include="Assets\LiquidShader\Resources\Shaders\LiquidVolumeReflections.shader" />
      <None Include="Assets\Fluvio\Resources\ComputeShaders\Includes\FluvioLanguageSupport.cginc" />
      <None Include="Assets\RenameTool\Readme.txt" />
+     <None Include="Assets\LiquidShader\Resources\Shaders\LVLiquidPassBase.cginc" />
      <None Include="Assets\Fluvio\Resources\ComputeShaders\Plugins\ColorByDensity\OpenCLShader.cl.txt" />
      <None Include="Assets\Fluvio\Resources\ComputeShaders\Plugins\PhaseChange\OpenCLShader.cl.txt" />
      <None Include="Assets\Fluvio\Resources\ComputeShaders\Plugins\FluidEffector\ComputeShader.cginc" />
+     <None Include="Assets\LiquidShader\Resources\Shaders\LiquidVolumeSimple.shader" />
      <None Include="Assets\Fluvio\Resources\ComputeShaders\Plugins\FluidEffector\ComputeShader.compute" />
      <None Include="Assets\Fluvio\Resources\ComputeShaders\SamplePlugins\FluidMixer\OpenCLShader.cl.txt" />
      <None Include="Assets\Fluvio\Resources\ComputeShaders\Plugins\SizeByDensity\OpenCLShader.cl.txt" />
      <None Include="Assets\Fluvio\Shaders\FluidEffect\FluidEffect.cginc" />
      <None Include="Assets\Fluvio\Resources\ComputeShaders\SamplePlugins\FluidTouch\ComputeShader.compute" />
+     <None Include="Assets\LiquidShader\Resources\Shaders\LiquidVolumeBlur.shader" />
      <None Include="Assets\Fluvio\Resources\ComputeShaders\FluidParticleSystem\OpenCLShader.cl.txt" />
      <None Include="Assets\Fluvio\Resources\ComputeShaders\Plugins\PhaseChange\ComputeShader.compute" />
      <None Include="Assets\Fluvio\Resources\ComputeShaders\Solvers\FluidSolver\ComputeShader.cginc" />
+     <None Include="Assets\LiquidShader\Resources\Shaders\LiquidVolumeDefault.shader" />
      <None Include="Assets\Fluvio\Shaders\Particles\Fluvio-Particles-NoGrabPass-Additive.shader" />
      <None Include="Assets\Fluvio\Resources\ComputeShaders\FluidParticleSystem\ComputeShader.cginc" />
      <None Include="Assets\Fluvio\Shaders\Particles\Fluvio-Particles-NoGrabPass-AdditiveLit.shader" />
      <None Include="Assets\Fluvio\Resources\ComputeShaders\Plugins\FluidEffector\OpenCLShader.cl.txt" />
+     <None Include="Assets\LiquidShader\Resources\Shaders\LVBlurPass.cginc" />
      <None Include="Assets\Fluvio\Resources\ComputeShaders\Solvers\FluidSolver\ComputeShader.compute" />
      <None Include="Assets\Fluvio\Shaders\Particles\Fluvio-Particles-VertexLitBlended.shader" />
      <None Include="Assets\Fluvio\Resources\ComputeShaders\SamplePlugins\FluidMixer\ComputeShader.cginc" />
@@ -113,15 +123,16 @@
      <None Include="Assets\Fluvio\Shaders\Particles\FluidParticleShader.cginc" />
      <None Include="Assets\Fluvio\Shaders\Particles\Fluvio-Particles-AdditiveLit.shader" />
      <None Include="Assets\Fluvio\README.txt" />
+     <None Include="Assets\LiquidShader\Resources\Shaders\LiquidVolumeBump.shader" />
      <None Include="Assets\Fluvio\Shaders\Particles\Fluvio-Particles-NoGrabPass-AlphaBlended.shader" />
+     <None Include="Assets\LiquidShader\Resources\Shaders\LVLiquidPassSimple.cginc" />
      <None Include="Assets\Fluvio\Shaders\Particles\Fluvio-Particles-AlphaBlended.shader" />
+     <None Include="Assets\LiquidShader\Resources\Shaders\LVLiquidPass3D.cginc" />
      <None Include="Assets\Fluvio\Resources\ComputeShaders\SamplePlugins\FluidMixer\ComputeShader.compute" />
+     <None Include="Assets\LiquidShader\Resources\Shaders\LVShadowPass.cginc" />
      <None Include="Assets\Fluvio\Shaders\Particles\Fluvio-Particles-Multiply.shader" />
      <None Include="Assets\Fluvio\Shaders\Particles\Fluvio-Particles-NoGrabPass-Multiply.shader" />
      <None Include="Assets\Fluvio\Shaders\Particles\Fluvio-Particles-Additive.shader" />
- <Reference Include="UnityEngine.Purchasing">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
@@ -133,9 +144,6 @@
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.HoloLens">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
