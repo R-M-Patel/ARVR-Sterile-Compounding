@@ -31,6 +31,8 @@ ModelImporter:
     100046: Liquid_30_static
     100048: Liquid_3_static
     100050: Liquid_30_staticsdfsd
+    100052: Plunger_60ml_001
+    100054: temp
     400000: 30ml
     400002: 3ml
     400004: 60ml
@@ -57,6 +59,8 @@ ModelImporter:
     400046: Liquid_30_static
     400048: Liquid_3_static
     400050: Liquid_30_staticsdfsd
+    400052: Plunger_60ml_001
+    400054: temp
     2300000: Barrel_30ml
     2300002: Barrel_3ml
     2300004: Barrel_60ml
@@ -79,6 +83,8 @@ ModelImporter:
     2300038: Liquid_30_static
     2300040: Liquid_3_static
     2300042: Liquid_30_staticsdfsd
+    2300044: Plunger_60ml_001
+    2300046: temp
     3300000: Barrel_30ml
     3300002: Barrel_3ml
     3300004: Barrel_60ml
@@ -101,6 +107,8 @@ ModelImporter:
     3300038: Liquid_30_static
     3300040: Liquid_3_static
     3300042: Liquid_30_staticsdfsd
+    3300044: Plunger_60ml_001
+    3300046: temp
     4300000: Plunger_3ml
     4300002: Needle_001
     4300004: Cap_001
@@ -123,6 +131,8 @@ ModelImporter:
     4300038: Liquid_3_static
     4300040: Liquid_30_static
     4300042: Liquid_30_staticsdfsd
+    4300044: Plunger_60ml_001
+    4300046: temp
     7400000: Default Take
     9500000: //RootNode
   materials:
