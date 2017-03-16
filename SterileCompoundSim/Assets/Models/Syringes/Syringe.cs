@@ -149,6 +149,26 @@ public class Syringe {
 		plunger.transform.localPosition = temp;
 	}
 
+
+	/// <summary>
+	/// Moves the plunger to the left hand.
+	/// </summary>
+	public void leftMove() {
+		GameObject thumb = GameObject.Find("RigidRoundHand_L/thumb");
+		Vector3 temp = thumb.transform.localPosition;
+		plunger.transform.localPosition = temp;
+	}
+
+	/// <summary>
+	/// Moves the plunger to the right hand.
+	/// </summary>
+	public void rightMove() {
+		GameObject thumb = GameObject.Find("RigidRoundHand_R/thumb");
+		Vector3 temp = thumb.transform.localPosition;
+		plunger.transform.localPosition = temp;
+	}
+	
+
 	/// <summary>
 	/// Simple method that draws back the plunger to test its functionality with.
 	/// </summary>
@@ -157,7 +177,8 @@ public class Syringe {
 		temp.y += 0.1f;
 		plunger.transform.localPosition = temp;
 	}
-		
+
+
 	// Send a Vector3 of the hand here in the Update loop
 	// Change the float here for the camera distance
 	// This does not change depth with the mouse, but the mouse can't change

@@ -46,17 +46,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Collision_3.cs" />
-     <Compile Include="Assets\Collision_30.cs" />
-     <Compile Include="Assets\Collision_60.cs" />
      <Compile Include="Assets\LiquidShader\Scripts\LiquidVolume.cs" />
      <Compile Include="Assets\Models\BasicVRHands\Scripts\HandController.cs" />
+     <Compile Include="Assets\Models\Syringes\Collision_3.cs" />
+     <Compile Include="Assets\Models\Syringes\Collision_30.cs" />
+     <Compile Include="Assets\Models\Syringes\Collision_60.cs" />
+     <Compile Include="Assets\Models\Syringes\Syringe.cs" />
      <Compile Include="Assets\Scripts\UI\LoadSceneOnClick.cs" />
      <Compile Include="Assets\Scripts\UI\OnStartButton.cs" />
      <Compile Include="Assets\Scripts\UI\QuitOnClick.cs" />
      <Compile Include="Assets\Scripts\UI\SelectOnInput.cs" />
      <Compile Include="Assets\Scripts\UI\UICamera.cs" />
-     <Compile Include="Assets\Syringe.cs" />
      <Compile Include="Assets\Unity UI Sample\Scripts\ActiveStateToggler.cs" />
      <Compile Include="Assets\Unity UI Sample\Scripts\ApplicationManager.cs" />
      <Compile Include="Assets\Unity UI Sample\Scripts\ChangeColor.cs" />
@@ -85,9 +85,6 @@
      <None Include="Assets\LiquidShader\Resources\Shaders\LVLiquidPassSimple.cginc" />
      <None Include="Assets\LiquidShader\Resources\Shaders\LVLiquidPass3D.cginc" />
      <None Include="Assets\LiquidShader\Resources\Shaders\LVShadowPass.cginc" />
- <Reference Include="UnityEngine.Purchasing">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
@@ -99,9 +96,6 @@
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.HoloLens">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>

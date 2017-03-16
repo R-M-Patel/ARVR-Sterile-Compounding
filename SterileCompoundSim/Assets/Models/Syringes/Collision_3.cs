@@ -33,6 +33,13 @@ public class Collision_3 : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		syr_3.testMove ();
+		/* 
+		if (left_syringe_action) {
+		 	syr_3.leftMove();
+		else if (right_syringe_action) {
+			syr_3.rightMove();
+		} 
+		*/
 		syr_3.keepInBounds ();
 	}
 
