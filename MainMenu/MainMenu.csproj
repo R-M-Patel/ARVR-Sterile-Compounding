@@ -78,6 +78,7 @@
     <Compile Include="Assets\Scripts\LoadSceneOnClick.cs" />
     <Compile Include="Assets\Scripts\QuitOnClick.cs" />
     <Compile Include="Assets\Scripts\SelectOnInput.cs" />
+    <Compile Include="Assets\Scripts\SetAudioLevels.cs" />
     <Compile Include="Assets\Unity UI Sample\Scripts\ActiveStateToggler.cs" />
     <Compile Include="Assets\Unity UI Sample\Scripts\ApplicationManager.cs" />
     <Compile Include="Assets\Unity UI Sample\Scripts\ChangeColor.cs" />
@@ -92,6 +93,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Unity UI Sample\Fonts\Jupiter\LICENSE.txt" />
+    <None Include="Assets\Unity UI Sample\Fonts\OpenSans\License!.txt" />
     <None Include="Assets\Unity UI Sample\Materials\UI-Default-No-Alpha.shader" />
     <None Include="Assets\Unity UI Sample\Textures and Sprites\SF UI\Background\LICENSE.txt" />
   </ItemGroup>
