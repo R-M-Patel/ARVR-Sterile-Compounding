@@ -156,6 +156,8 @@
     <Compile Include="Assets\LeapMotionModules\Hands\Scripts\RiggedFinger.cs" />
     <Compile Include="Assets\LeapMotionModules\Hands\Scripts\RiggedHand.cs" />
     <Compile Include="Assets\Models\BasicVRHands\Scripts\HandController.cs" />
+    <Compile Include="Assets\Scripts\DetectionTesting.cs" />
+    <Compile Include="Assets\Scripts\Grabbable.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\LeapMotion\Dependencies.txt" />
