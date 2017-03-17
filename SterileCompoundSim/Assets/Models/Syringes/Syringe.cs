@@ -151,6 +151,34 @@ public class Syringe {
 
 
 	/// <summary>
+	/// Moves entire syringe that is put together based on hand grabbing it. Assumes the hand is
+	/// grabbing the barrel. I could try to change this to a more specific location if needed.
+	/// I have a feeling this will have a lot of issues and may not work well with the bounds method.
+	/// </summary>
+	public void generalMove(GameObject hand) {
+		// Adding GameObjects as children would change their scale and relative position...
+		// But I may change to that if this does not work well
+		plunger.transform.eulerAngles = hand.transform.eulerAngles;
+		barrel.transform.eulerAngles = hand.transform.eulerAngles;
+		Vector3 temp_diff_p = plunger.transform.position - barrel.transform.position;
+		Vector3 temp_diff_n = needle.transform.position - barrel.transform.position;
+		Vector3 temp_diff_c = cap.transform.position - barrel.transform.position;
+
+		barrel.transform.position = hand.transform.position;
+		plunger.transform.position = temp_diff_p + barrel.transform.position;
+
+		if (together == 1) {	// needle on
+			needle.transform.eulerAngles = hand.transform.eulerAngles;
+			plunger.transform.position = temp_diff_n + barrel.transform.position;
+			if (cap_on == 1) {	// cap on
+				cap.transform.eulerAngles = hand.transform.eulerAngles;
+				cap.transform.position = temp_diff_c + barrel.transform.position;
+			}
+		}
+
+	}
+
+	/// <summary>
 	/// Moves the plunger to the left hand.
 	/// </summary>
 	public void leftMove() {
@@ -179,11 +207,7 @@ public class Syringe {
 	}
 
 
-	// Send a Vector3 of the hand here in the Update loop
-	// Change the float here for the camera distance
-	// This does not change depth with the mouse, but the mouse can't change
-	// depth itself, so the y probably never changes.
-	// Gravity makes this not very effective
+	// Move to mouse
 	public void move(Vector3 other_obj) {
 		//other_obj.z = Camera.main.WorldToScreenPoint(barrel.transform.position).z; // Set this to be the distance you want the object to be placed in front of the camera.
 		//barrel.transform.position = Camera.main.ScreenToWorldPoint(other_obj);
