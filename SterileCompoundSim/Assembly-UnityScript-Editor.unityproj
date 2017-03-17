@@ -47,22 +47,58 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\RenameTool\Editor\RenameTool.js" />
+     <None Include="Assets\Plugins\LightingStuff\Resources\Shaders\HxVolumetricDensity.shader" />
+     <None Include="Assets\Plugins\donotdelete.txt" />
+     <None Include="Assets\Plugins\LightingStuff\BuiltIn-Replacement\UnityBuiltin2xTreeLibrary.cginc" />
+     <None Include="Assets\LeapMotion\Resources\LeapCG.cginc" />
+     <None Include="Assets\Plugins\LightingStuff\BuiltIn-Replacement\HxUnityStandardCore55.cginc" />
+     <None Include="Assets\LeapMotion\README_BEFORE_UPDATING.txt" />
      <None Include="Assets\LiquidShader\Resources\Shaders\LiquidVolumeZWriteBack.shader" />
+     <None Include="Assets\Plugins\LightingStuff\BuiltIn-Replacement\HxUnityStandardCoreForward.cginc" />
+     <None Include="Assets\LeapMotion\readme.txt" />
+     <None Include="Assets\LeapMotion\Resources\RuntimeGizmos.shader" />
      <None Include="Assets\Unity UI Sample\Fonts\Jupiter\LICENSE.txt" />
+     <None Include="Assets\LeapMotionModules\DetectionExamples\Shaders\LeapPinchLine.shader" />
      <None Include="Assets\LiquidShader\Resources\Shaders\LiquidVolumeDefaultNoFlask.shader" />
+     <None Include="Assets\Plugins\LightingStuff\Resources\Shaders\HxVolumetricTransperencyBlur.shader" />
+     <None Include="Assets\Plugins\LightingStuff\Resources\Shaders\HxVolumetricDownscaleDepth.shader" />
+     <None Include="Assets\LeapMotion\Dependencies.txt" />
+     <None Include="Assets\Plugins\LightingStuff\Resources\Shaders\HxVolumetricApplyDirect.shader" />
      <None Include="Assets\LiquidShader\Resources\Shaders\LVBlur.cginc" />
      <None Include="Assets\LiquidShader\Resources\Shaders\LiquidVolumeReflections.shader" />
      <None Include="Assets\Unity UI Sample\Textures and Sprites\SF UI\Background\LICENSE.txt" />
+     <None Include="Assets\LeapMotion\Resources\ThresholdOverlay.shader" />
      <None Include="Assets\RenameTool\Readme.txt" />
+     <None Include="Assets\Plugins\LightingStuff\Resources\Shaders\HxVolumetricApplyImageEffect.shader" />
      <None Include="Assets\LiquidShader\Resources\Shaders\LVLiquidPassBase.cginc" />
+     <None Include="Assets\Plugins\LightingStuff\Resources\Shaders\hxQualitySettings.cginc" />
+     <None Include="Assets\Plugins\LightingStuff\Resources\Shaders\HxVolumetricDepthAwareBlur.shader" />
      <None Include="Assets\LiquidShader\Resources\Shaders\LiquidVolumeSimple.shader" />
+     <None Include="Assets\LeapMotion\Resources\PassthroughForeground.shader" />
+     <None Include="Assets\Plugins\LightingStuff\Resources\Shaders\HxVolumetricLightCore.cginc" />
      <None Include="Assets\LiquidShader\Resources\Shaders\LiquidVolumeBlur.shader" />
+     <None Include="Assets\LeapMotion\Resources\PassthroughBackground.shader" />
+     <None Include="Assets\Plugins\LightingStuff\BuiltIn-Replacement\Particle AddSmooth.shader" />
+     <None Include="Assets\Plugins\LightingStuff\Resources\Shaders\HxShadowCasterFix.shader" />
      <None Include="Assets\Unity UI Sample\Materials\UI-Default-No-Alpha.shader" />
+     <None Include="Assets\Plugins\LightingStuff\BuiltIn-Replacement\HxVolumetricStandard.shader" />
+     <None Include="Assets\Plugins\LightingStuff\BuiltIn-Replacement\TreeSoftOcclusionLeaves.shader" />
+     <None Include="Assets\Plugins\LightingStuff\BuiltIn-Replacement\HxVolumetricCore.cginc" />
      <None Include="Assets\LiquidShader\Resources\Shaders\LiquidVolumeDefault.shader" />
+     <None Include="Assets\Plugins\LightingStuff\Resources\Shaders\HxVolumetricPointLight.shader" />
      <None Include="Assets\LiquidShader\Resources\Shaders\LVBlurPass.cginc" />
+     <None Include="Assets\Plugins\LightingStuff\BuiltIn-Replacement\Sprites-Diffuse.shader" />
+     <None Include="Assets\Plugins\LightingStuff\BuiltIn-Replacement\Unlit-Alpha.shader" />
+     <None Include="Assets\Plugins\LightingStuff\BuiltIn-Replacement\Particle Add.shader" />
+     <None Include="Assets\LeapMotion\Version.txt" />
+     <None Include="Assets\Plugins\LightingStuff\Resources\Shaders\HxVolumetricApplyRenderQueue.shader" />
+     <None Include="Assets\Plugins\LightingStuff\Resources\Shaders\HxVolumetricDirectionalLight.shader" />
      <None Include="Assets\LiquidShader\Resources\Shaders\LiquidVolumeBump.shader" />
+     <None Include="Assets\LeapMotion\Resources\VertexOffsetShader.shader" />
      <None Include="Assets\LiquidShader\Resources\Shaders\LVLiquidPassSimple.cginc" />
+     <None Include="Assets\Plugins\LightingStuff\Resources\Shaders\HxVolumetricSpotLight.shader" />
      <None Include="Assets\LiquidShader\Resources\Shaders\LVLiquidPass3D.cginc" />
+     <None Include="Assets\Plugins\LightingStuff\BuiltIn-Replacement\BillboardTree.shader" />
      <None Include="Assets\LiquidShader\Resources\Shaders\LVShadowPass.cginc" />
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
@@ -118,6 +154,9 @@
  <Reference Include="UnityEngine.VR">
  <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
+ <Reference Include="LeapCSharp.NET3.5">
+ <HintPath>C:/Users/Me/Downloads/ARVR-CS-Capstone-Project/SterileCompoundSim/Assets/Plugins/LeapCSharp.NET3.5.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>D:/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
  </Reference>
@@ -126,8 +165,12 @@
  </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{B97ABC69-EBE9-C8B0-4A87-08509E64E9A6}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{7E2D9B6D-52A8-A048-3FC5-AC84D8CC8D32}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp-Editor-firstpass.csproj">
+      <Project>{621DCA3C-E1FF-9195-3A06-05250527DE71}</Project>      <Name>Assembly-CSharp-Editor-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
