@@ -46,23 +46,84 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\LeapMotion\Editor\CustomEditorBase.cs" />
+     <Compile Include="Assets\LeapMotion\Editor\LeapHandControllerEditor.cs" />
+     <Compile Include="Assets\LeapMotion\Editor\LeapImageRetrieverEditor.cs" />
+     <Compile Include="Assets\LeapMotion\Editor\LeapServiceProviderEditor.cs" />
+     <Compile Include="Assets\LeapMotion\Editor\Tests\FrameValidator.cs" />
+     <Compile Include="Assets\LeapMotion\Editor\Tests\HandFactoryTest.cs" />
+     <Compile Include="Assets\LeapMotion\Editor\Tests\TransformCopyTest.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Algorithms\Editor\Tests\SlidingMaxTest.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Attributes\Editor\CombinablePropertyDrawer.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\DataStructures\Editor\SerializableDictionaryEditor.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\DataStructures\Editor\Tests\MinHeapTest.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\DataStructures\Editor\Tests\ProduceConsumeBufferTest.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\DataStructures\Editor\Tests\RingBufferTest.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\VR\Editor\EyeTypeEditor.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\VR\Editor\LeapTemporalWarpingEditor.cs" />
+     <Compile Include="Assets\LeapMotionModules\Hands\Scripts\Editor\LeapHandsAutoRigEditor.cs" />
+     <Compile Include="Assets\LeapMotionModules\InteractionEngine\Scripts\Editor\InteractionBehaviourBaseEditor.cs" />
+     <Compile Include="Assets\LeapMotionModules\InteractionEngine\Scripts\Editor\InteractionManagerEditor.cs" />
+     <Compile Include="Assets\LeapMotionModules\InteractionEngine\Scripts\Editor\InteractionMaterialEditor.cs" />
+     <Compile Include="Assets\LeapMotionModules\InteractionEngine\Scripts\Editor\SingleLayerEditor.cs" />
+     <Compile Include="Assets\LeapMotionModules\InteractionEngine\Scripts\Editor\Tests\BaseCallGuardTest.cs" />
+     <Compile Include="Assets\LeapMotionModules\InteractionEngine\Scripts\Editor\Tests\InteractionCTest.cs" />
+     <Compile Include="Assets\LeapMotionModules\InteractionEngine\Scripts\Editor\Tests\KabschTest.cs" />
+     <Compile Include="Assets\LeapMotionModules\InteractionEngine\Scripts\Editor\Tests\ShapePoolTest.cs" />
+     <Compile Include="Assets\LeapMotionModules\InteractionEngine\Scripts\Editor\Tests\StructAllocatorTest.cs" />
      <Compile Include="Assets\LiquidShader\Editor\LiquidVolumeEditor.cs" />
+     <None Include="Assets\Plugins\LightingStuff\Resources\Shaders\HxVolumetricDensity.shader" />
+     <None Include="Assets\Plugins\donotdelete.txt" />
+     <None Include="Assets\Plugins\LightingStuff\BuiltIn-Replacement\UnityBuiltin2xTreeLibrary.cginc" />
+     <None Include="Assets\LeapMotion\Resources\LeapCG.cginc" />
+     <None Include="Assets\Plugins\LightingStuff\BuiltIn-Replacement\HxUnityStandardCore55.cginc" />
+     <None Include="Assets\LeapMotion\README_BEFORE_UPDATING.txt" />
      <None Include="Assets\LiquidShader\Resources\Shaders\LiquidVolumeZWriteBack.shader" />
+     <None Include="Assets\Plugins\LightingStuff\BuiltIn-Replacement\HxUnityStandardCoreForward.cginc" />
+     <None Include="Assets\LeapMotion\readme.txt" />
+     <None Include="Assets\LeapMotion\Resources\RuntimeGizmos.shader" />
      <None Include="Assets\Unity UI Sample\Fonts\Jupiter\LICENSE.txt" />
+     <None Include="Assets\LeapMotionModules\DetectionExamples\Shaders\LeapPinchLine.shader" />
      <None Include="Assets\LiquidShader\Resources\Shaders\LiquidVolumeDefaultNoFlask.shader" />
+     <None Include="Assets\Plugins\LightingStuff\Resources\Shaders\HxVolumetricTransperencyBlur.shader" />
+     <None Include="Assets\Plugins\LightingStuff\Resources\Shaders\HxVolumetricDownscaleDepth.shader" />
+     <None Include="Assets\LeapMotion\Dependencies.txt" />
+     <None Include="Assets\Plugins\LightingStuff\Resources\Shaders\HxVolumetricApplyDirect.shader" />
      <None Include="Assets\LiquidShader\Resources\Shaders\LVBlur.cginc" />
      <None Include="Assets\LiquidShader\Resources\Shaders\LiquidVolumeReflections.shader" />
      <None Include="Assets\Unity UI Sample\Textures and Sprites\SF UI\Background\LICENSE.txt" />
+     <None Include="Assets\LeapMotion\Resources\ThresholdOverlay.shader" />
      <None Include="Assets\RenameTool\Readme.txt" />
+     <None Include="Assets\Plugins\LightingStuff\Resources\Shaders\HxVolumetricApplyImageEffect.shader" />
      <None Include="Assets\LiquidShader\Resources\Shaders\LVLiquidPassBase.cginc" />
+     <None Include="Assets\Plugins\LightingStuff\Resources\Shaders\hxQualitySettings.cginc" />
+     <None Include="Assets\Plugins\LightingStuff\Resources\Shaders\HxVolumetricDepthAwareBlur.shader" />
      <None Include="Assets\LiquidShader\Resources\Shaders\LiquidVolumeSimple.shader" />
+     <None Include="Assets\LeapMotion\Resources\PassthroughForeground.shader" />
+     <None Include="Assets\Plugins\LightingStuff\Resources\Shaders\HxVolumetricLightCore.cginc" />
      <None Include="Assets\LiquidShader\Resources\Shaders\LiquidVolumeBlur.shader" />
+     <None Include="Assets\LeapMotion\Resources\PassthroughBackground.shader" />
+     <None Include="Assets\Plugins\LightingStuff\BuiltIn-Replacement\Particle AddSmooth.shader" />
+     <None Include="Assets\Plugins\LightingStuff\Resources\Shaders\HxShadowCasterFix.shader" />
      <None Include="Assets\Unity UI Sample\Materials\UI-Default-No-Alpha.shader" />
+     <None Include="Assets\Plugins\LightingStuff\BuiltIn-Replacement\HxVolumetricStandard.shader" />
+     <None Include="Assets\Plugins\LightingStuff\BuiltIn-Replacement\TreeSoftOcclusionLeaves.shader" />
+     <None Include="Assets\Plugins\LightingStuff\BuiltIn-Replacement\HxVolumetricCore.cginc" />
      <None Include="Assets\LiquidShader\Resources\Shaders\LiquidVolumeDefault.shader" />
+     <None Include="Assets\Plugins\LightingStuff\Resources\Shaders\HxVolumetricPointLight.shader" />
      <None Include="Assets\LiquidShader\Resources\Shaders\LVBlurPass.cginc" />
+     <None Include="Assets\Plugins\LightingStuff\BuiltIn-Replacement\Sprites-Diffuse.shader" />
+     <None Include="Assets\Plugins\LightingStuff\BuiltIn-Replacement\Unlit-Alpha.shader" />
+     <None Include="Assets\Plugins\LightingStuff\BuiltIn-Replacement\Particle Add.shader" />
+     <None Include="Assets\LeapMotion\Version.txt" />
+     <None Include="Assets\Plugins\LightingStuff\Resources\Shaders\HxVolumetricApplyRenderQueue.shader" />
+     <None Include="Assets\Plugins\LightingStuff\Resources\Shaders\HxVolumetricDirectionalLight.shader" />
      <None Include="Assets\LiquidShader\Resources\Shaders\LiquidVolumeBump.shader" />
+     <None Include="Assets\LeapMotion\Resources\VertexOffsetShader.shader" />
      <None Include="Assets\LiquidShader\Resources\Shaders\LVLiquidPassSimple.cginc" />
+     <None Include="Assets\Plugins\LightingStuff\Resources\Shaders\HxVolumetricSpotLight.shader" />
      <None Include="Assets\LiquidShader\Resources\Shaders\LVLiquidPass3D.cginc" />
+     <None Include="Assets\Plugins\LightingStuff\BuiltIn-Replacement\BillboardTree.shader" />
      <None Include="Assets\LiquidShader\Resources\Shaders\LVShadowPass.cginc" />
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
@@ -112,6 +173,9 @@
  <Reference Include="UnityEngine.VR">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
+ <Reference Include="LeapCSharp.NET3.5">
+ <HintPath>/Users/jenniferbramson/Desktop/CS1980/ARVR-CS-Capstone-Project/SterileCompoundSim/Assets/Plugins/LeapCSharp.NET3.5.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll</HintPath>
  </Reference>
@@ -141,8 +205,12 @@
  </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{B97ABC69-EBE9-C8B0-4A87-08509E64E9A6}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{7E2D9B6D-52A8-A048-3FC5-AC84D8CC8D32}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp-Editor-firstpass.csproj">
+      <Project>{621DCA3C-E1FF-9195-3A06-05250527DE71}</Project>      <Name>Assembly-CSharp-Editor-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
