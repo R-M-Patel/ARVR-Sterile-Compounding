@@ -5,18 +5,24 @@ using UnityEngine.UI;
 
 public class SetAudioLevels : MonoBehaviour {
 
-	public AudioMixer mainMixer;                    //Used to hold a reference to the AudioMixer mainMixer
+	public AudioMixer MasterMixer;                    //Used to hold a reference to the AudioMixer mainMixer
 
 
     //Call this function and pass in the float parameter masterLvl to set the volume of the AudioMixerGroup Master in mainMixer
     public void SetMasterLevel(float masterLvl)
+    {
+        MasterMixer.SetFloat("masterVol", masterLvl);
+    }
+
+    //Call this function and pass in the float parameter menuLvl to set the volume of the AudioMixerGroup MenuSounds in mainMixer
+    public void SetMenuSoundsLevel(float menuLvl)
 	{
-		mainMixer.SetFloat("masterVol", masterLvl);
+        MasterMixer.SetFloat("menuVol", menuLvl);
 	}
 
-	//Call this function and pass in the float parameter sfxLevel to set the volume of the AudioMixerGroup SoundFx in mainMixer
+	//Call this function and pass in the float parameter sfxLevel to set the volume of the AudioMixerGroup InGameSoundFx in mainMixer
 	public void SetSfxLevel(float sfxLevel)
 	{
-		mainMixer.SetFloat("sfxVol", sfxLevel);
+        MasterMixer.SetFloat("sfxVol", sfxLevel);
 	}
 }
