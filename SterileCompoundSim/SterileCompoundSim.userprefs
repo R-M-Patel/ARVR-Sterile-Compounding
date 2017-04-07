@@ -1,9 +1,12 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/LeapMotion/Scripts/LeapServiceProvider.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Models/Syringes/Collision_30.cs">
     <Files>
-      <File FileName="Assets/Models/Syringes/Syringe.cs" Line="210" Column="18" />
-      <File FileName="Assets/LeapMotion/Scripts/LeapServiceProvider.cs" Line="326" Column="1" />
+      <File FileName="Assets/LeapMotionModules/InteractionEngine/Scripts/InteractionBehaviours/IInteractionBehaviour.cs" Line="1" Column="1" />
+      <File FileName="Assets/Models/Syringes/Syringe.cs" Line="1" Column="1" />
+      <File FileName="Assets/LeapMotionModules/InteractionEngine/Scripts/InteractionBehaviour.cs" Line="1" Column="1" />
+      <File FileName="Assets/LeapMotionModules/InteractionEngine/Scripts/ControllerImplementations/HoldingPoseControllerKabsch.cs" Line="1" Column="1" />
+      <File FileName="Assets/Models/Syringes/Collision_30.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

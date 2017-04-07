@@ -43,4 +43,15 @@ public class Collision_30 : MonoBehaviour {
 		syr_30.keepInBounds ();
 	}
 
+	/*
+  void onHandGrasp() {
+    Hand hand = frame.Hands[0];
+    if (hand.grabStrength > 0.5) {
+
+    }
+    //syr_30.generalMove(GameObject.Find("Handsset"));
+    //syr_30.keepInBounds();
+  }
+  */
+
 }

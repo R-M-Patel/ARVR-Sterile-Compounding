@@ -25,6 +25,7 @@ public class Syringe {
 	// 30ml dist = -3 to 0.6 localPosition.y
 	// 60ml dist = -4.3 to 0
 	// 3ml dist = 0 to 1.65
+	// Weirdly, the negative distance is when the plunger is fully in the barrel.
 	private float MAX;
 	private float MIN;
 	private float b_p_diff;		// Difference between barrel and plunger x-value when attached

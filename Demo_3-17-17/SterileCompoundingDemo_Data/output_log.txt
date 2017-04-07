@@ -1,0 +1,79 @@
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 970 (ID=0x13c2)
+    Vendor:   NVIDIA
+    VRAM:     4058 MB
+    Driver:   21.21.13.7653
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Me\Documents\School\Capstone\Demo_3-17-17\SterileCompoundingDemo_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Me\Documents\School\Capstone\Demo_3-17-17\SterileCompoundingDemo_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Me\Documents\School\Capstone\Demo_3-17-17\SterileCompoundingDemo_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Me\Documents\School\Capstone\Demo_3-17-17\SterileCompoundingDemo_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Me\Documents\School\Capstone\Demo_3-17-17\SterileCompoundingDemo_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Me\Documents\School\Capstone\Demo_3-17-17\SterileCompoundingDemo_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Me\Documents\School\Capstone\Demo_3-17-17\SterileCompoundingDemo_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Me\Documents\School\Capstone\Demo_3-17-17\SterileCompoundingDemo_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Me\Documents\School\Capstone\Demo_3-17-17\SterileCompoundingDemo_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Me\Documents\School\Capstone\Demo_3-17-17\SterileCompoundingDemo_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Me\Documents\School\Capstone\Demo_3-17-17\SterileCompoundingDemo_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\Me\Documents\School\Capstone\Demo_3-17-17\SterileCompoundingDemo_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: C:\Users\Me\Documents\School\Capstone\Demo_3-17-17\SterileCompoundingDemo_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\Me\Documents\School\Capstone\Demo_3-17-17\SterileCompoundingDemo_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: C:\Users\Me\Documents\School\Capstone\Demo_3-17-17\SterileCompoundingDemo_Data\Managed\LeapCSharp.NET3.5.dll (this message is harmless)
+Loading C:\Users\Me\Documents\School\Capstone\Demo_3-17-17\SterileCompoundingDemo_Data\Managed\LeapCSharp.NET3.5.dll into Unity Child Domain
+- Completed reload, in  0.026 seconds
+Platform assembly: C:\Users\Me\Documents\School\Capstone\Demo_3-17-17\SterileCompoundingDemo_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Me\Documents\School\Capstone\Demo_3-17-17\SterileCompoundingDemo_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+The referenced script on this Behaviour (Game Object 'Handsset') is missing!
+ 
+(Filename:  Line: 1754)
+
+UnloadTime: 1.227337 ms
+CreateDirectory 'C:/Users/Me/AppData/LocalLow/DefaultCompany' failed: Cannot create a file when that file already exists.
+ (current dir: C:/Users/Me/Documents/School/Capstone/Demo_3-17-17/SterileCompoundingDemo_Data)
+CreateDirectory 'C:/Users/Me/AppData/LocalLow/DefaultCompany' failed: Cannot create a file when that file already exists.
+ (current dir: C:/Users/Me/Documents/School/Capstone/Demo_3-17-17/SterileCompoundingDemo_Data)
+made
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+made
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+made
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+60 cap on
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+60 together
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+30 cap on
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+30 together
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+3 cap on
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+3 together
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 1d50 -> priority: 1 
