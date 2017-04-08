@@ -36,7 +36,7 @@ then connecting that to a file for the entire syringe.
 `keepInBounds()` function in the Syringe.cs file, which implements a Syringe
 class, used by the Collision_3.cs, Collision_30.cs, and Collision_60.cs files.
 You can test this with the testMove() function followed by the `keepInBounds()`
-function in an 'Update()' loop, as can be seen in Collision_3.cs.
+function in an `Update()` loop, as can be seen in Collision_3.cs.
                                                                                 
 ```cs
 void Update () {
