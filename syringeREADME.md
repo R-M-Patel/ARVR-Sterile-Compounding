@@ -1,9 +1,9 @@
-#Syringe#                                                                             
+# Syringe                                                                             
 Everything used for the syringes can be found in the 
 SterileCompoundSim/Models/Syringes folder.
                                                                                 
                                                                                 
-##What is already done##                                                            
+## What is already done                                                            
 * There are three syringe models (a 3ml, 30 ml, and 60 ml) included with their
 Blender file, which is imported into the Unity game. If you want to change
 anything about the way the Syringe models look, do this through the 
@@ -38,11 +38,11 @@ class, used by the Collision_3.cs, Collision_30.cs, and Collision_60.cs files.
 You can test this with the testMove() function followed by the 'keepInBounds()'
 function in an 'Update()' loop, as can be seen in Collision_3.cs.
                                                                                 
-'''C#
-void Update () {
-  syr_3.testMove ();
-  syr_3.keepInBounds ();
-}
+'''c#
+  void Update () {
+    syr_3.testMove ();
+    syr_3.keepInBounds ();
+  }
 '''
                                                                                 
 NOTE: This 'keepinBounds()'' function could be changed to a fixed joint.
@@ -63,7 +63,7 @@ the needle pointing up, the 'Level' feature would show no liquid until the
 syringe is entirely filled.
                                                                                 
                                                                                 
-##What needs to be done##
+## What needs to be done
 * The way the colliders are done will likely need to be changed. Right now,
 each syringe only interacts with one needle and one cap, but ideally you would
 have one needle and one cap for all three syringes. The needle should start
@@ -77,41 +77,41 @@ certain range of the syringe, say within 2 Euclidean/Manhatten distance, and
 if it is and is also gripping, then attach the syringe to that gripped hand. 
 It could look something like this:         
                                                                                 
-'''C#                                                          
-// Returns hand if a hand is near the barrel and grabbing, null otherwise
-public Hand isHandNear() {
-  Frame frame = controller.Frame (); // controller is a Controller object
-  if(frame.Hands.Count > 0){
-      List<Hand> hands = frame.Hands;
-      int i;
+'''c#                                                          
+  // Returns hand if a hand is near the barrel and grabbing, null otherwise
+  public Hand isHandNear() {
+    Frame frame = controller.Frame (); // controller is a Controller object
+    if(frame.Hands.Count > 0){
+        List<Hand> hands = frame.Hands;
+        int i;
 
-      // Check to see if any of the hands is nearby
-      for (i = 0; i < hands.Count; i++) {
-        Hand currHand = hands [i];
-        Vector3 curr_vect = currHand.transform.localPosition;
+        // Check to see if any of the hands is nearby
+        for (i = 0; i < hands.Count; i++) {
+          Hand currHand = hands [i];
+          Vector3 curr_vect = currHand.transform.localPosition;
 
-        // Find Euclidean distance
-        float handDistance = abs(barrel_vect.x - curr_vect.x) + abs(barrel_vect.y - curr_vect.y) + abs(barrel_vect.z - curr_vect.z);
-        if (handDistance <= 2 && currHand.grabStength >= 0.5) {
-          return currHand;
+          // Find Euclidean distance
+          float handDistance = abs(barrel_vect.x - curr_vect.x) + abs(barrel_vect.y - curr_vect.y) + abs(barrel_vect.z - curr_vect.z);
+          if (handDistance <= 2 && currHand.grabStength >= 0.5) {
+            return currHand;
+          }
         }
-      }
-  }
+    }
 
-  return null;
-}
+    return null;
+  }
 '''
  
-'''C#
-void Update () {
-  Hand handNear = isHandNear();
-  if (handNear != null) {
-    attachSyringe(handNear);
+'''c#
+  void Update () {
+    Hand handNear = isHandNear();
+    if (handNear != null) {
+      attachSyringe(handNear);
+    }
   }
-}
 '''
                                                                                 
-Check:
+Check:                                                                             
 https://developer.leapmotion.com/documentation/csharp/devguide/Leap_Hand.html 
 
 You could do this and other related hand things in a hand API if you think it
@@ -124,10 +124,10 @@ of the plunger.
 https://developer.leapmotion.com/documentation/csharp/devguide/Leap_Hand.html
                                                                                 
 Maybe something like (pesudocode) this:
-'''C#
-if (sum(handNearPlunger.PalmVelocity) > 1 && handNearPlunger.Direction is away from barrel) {
-  drawBackPlunger();
-}
+'''c#
+  if (sum(handNearPlunger.PalmVelocity) > 1 && handNearPlunger.Direction is away from barrel) {
+    drawBackPlunger();
+  }
 '''
                                                                               
 * You then need to draw back the plunger to some position. Ideally, this
