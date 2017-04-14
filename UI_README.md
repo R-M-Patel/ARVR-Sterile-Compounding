@@ -3,7 +3,7 @@
 #### April 2017
 #### Author: Nick Taglianetti
 
-#### Note: this UI_README refers specifically to the Unity `MainMenu` project stored in the `UI` branch of the `ARVR-CS-Capstone-Project` repository found [HERE](https://github.com/nick16754/ARVR-CS-Capstone-Project/tree/UI/MainMenu).
+#### Note: this UI_README refers specifically to the Unity `MainMenu` project stored in the `UI` branch of the `ARVR-CS-Capstone-Project` repository found [HERE](https://github.com/RMP40/ARVR-Sterile-Compounding/tree/UI/MainMenu).
 
 ## References
 * The Main Menu UI was created in Unity Version 5.5.1f1.
@@ -41,3 +41,8 @@
 * When transitioning between buttons on different panels (eg. 'Back' buttons) with arrow key keyboard strokes, the user can get stuck navigating buttons on a previously visited panel that is not currently displaying. Possible solutions to this bug are further explained [here](https://youtu.be/pgtZLc-gTEk?t=59m30s "Polishing Your Game Menu - minute 59:30").
   * _Troubleshooting Note:_ The user could also navigate between visible and invisible menu panels by toggling between the left, right, and down arrow keys on the keyboard to find on which panel a button is currently selected. Using a mouse also solves the problem.
 * The sliders in the 'Audio' panel are not currently connected to the `MasterMixer` Audio Mixer in a variable manner. Any adjustment to the sliders mutes the related audio. Possible solutions to this bug may be found [here](https://youtu.be/j9CqczkeYJY?t=45m37s "Game Jam Menu Template - minute 45:37").
+
+## Features Yet To Be Implemented
+* Progress Report Panel: see text displayed in `ProgressReportPanel` of the `MainMenu` scene. This panel could potentially display the quantitative/qualitative progress of a User across all attempts at the game. This panel could be accessed from the Main Menu at all times and potentially also at the end of a game session. A User Sign-in may be implemented in order to keep progress private and succinct.
+* Help Panel: see text displayed in `HelpPanel` of the `MainMenu` scene. After the rules of the game are implemented, a video of a baseline "good" sterile compounding performance could be displayed here. The baseline could be performed by a practicing pharmacist in order to establish proper practices for student Users to emulate in their game sessions.
+* In-Game UI: the actual assessment according to established rules (in the code-base) during gameplay. This would entail feedback including (but not necessarily limited to) different sounds (ie. beeps) for proper/improper sterile compounding practice steps during gameplay.
