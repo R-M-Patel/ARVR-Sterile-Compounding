@@ -13,7 +13,7 @@ https://developer.leapmotion.com/orion/#105
 # **All Subsystems:**
 
 
-# Environment                                                                           
+# _Environment_                                                                           
 Everything used for this subsystem can be found in this folder and/or the master project. 
                                                                                 
                                                                                 
@@ -99,7 +99,7 @@ stopper. Alcohol swabs are not included in the model.
 airflow detection, scoring, and so on. 
                                                                                                                                            
 
-# Liquid Shader                                                                        
+# _Liquid Shader_                                                                        
 To get a better idea of how things work, check out the shader in action, applied to many of the
 bottles and vials located in the main play area of the master project! 
                                                                                 
