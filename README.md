@@ -13,7 +13,7 @@ https://developer.leapmotion.com/orion/#105
 # **All Subsystems:**
 
 
-# User Interface (UI)
+# _User Interface (UI)_
 
 ## References
 * The Main Menu UI was created in Unity Version 5.5.1f1.
@@ -59,7 +59,7 @@ https://developer.leapmotion.com/orion/#105
 
 
 
-# Hands
+# _Hands_
 
 * The functional hand set can be found under ARVR-CS-Capstone-Project/SterileCompoundSim/Assets/Prefabs/handsset
 * Download the Leap control panel from here: https://www.leapmotion.com/setup/desktop/windows
@@ -80,7 +80,7 @@ far away.
 
 
 
-# Syringe     
+# _Syringe_     
 
 Everything used for the syringes can be found in the 
 SterileCompoundSim/Models/Syringes folder.
@@ -235,7 +235,7 @@ Good luck!
 
 
 
-# Vial/Sterilization Process                                                                             
+# _Vial/Sterilization Process_                                                                             
                                                                                 
                                                                                 
 ## What is already done                                                            
